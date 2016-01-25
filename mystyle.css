@@ -1,0 +1,52 @@
+body {
+    background-color: #161F31;
+    color: #A1947B;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    margin-left: 33%;
+}
+
+p a {
+    font-family: 'Vollkorn', serif; 
+}
+
+a {
+    color: #A1947B;
+}
+
+.navbar > a {
+    margin: 2.5%;
+}
+
+.frontfooter {
+    margin-top: 7.5%;
+    margin-right: 33%;
+    margin-left: 36%;
+    margin-bottom: 0%;
+    background-color: #143423;
+}
+
+.navbar {
+    margin-left: 40%;
+}
+
+.frontpage {
+    margin-left: 34%;
+}
+
+.frontimage {
+    margin-left: 32.5%;
+}
+
+@media only screen and (max-width: 500px) {
+    .frontimage {
+        width: 50%;
+        height: 50%;
+    }
+    .frontfooter a {
+        font-size: .6em;
+        word-wrap: break-word;
+    }
+}
